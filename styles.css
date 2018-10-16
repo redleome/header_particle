@@ -19,35 +19,36 @@ body{
   -webkit-background-clip: text;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,bed4e5+100 */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,abbcce+80 */
-  background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 0%, #abbcce 80%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffffff 0%,#abbcce 80%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffffff 0%,#abbcce 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#abbcce',GradientType=0 ); /* IE6-9 */
+
 }
-.cover{
-  /* width:100%;
-  height:100%;
-  position:absolute;
-  top:0;
-  border:solid #f00;
-  z-index:10000;
-  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%);
-  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%);
-  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%);
-  background: rgba(255,255,255,0.4); */
-}
-h1{
+
+.title-wrap{
   font-family: Lato, sans-serif;
   font-weight: 100;
   font-size:80px;
   text-align: center;
   text-transform: uppercase;
+  position:absolute;
+  width:100%;
+  text-align:center;
   top:350px;
   background:rgba(255,255,255,0.7);
   padding:10px;
   margin:auto;
-  position:absolute;
-  margin-left:20%;
-
 }
+/* 
+.placeholder{
+  animation-name: switch;
+  animation-duration: 0.5s;
+  opacity:1;
+}
+
+@@keyframes switch {
+  0%{ opacity:1; }
+  100%{ opacity:0; }
+}
+
+@-webkit-keyframes switch{
+  0%{ opacity:1; }
+  100%{ opacity:0; }
+} */
