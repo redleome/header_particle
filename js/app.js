@@ -16,7 +16,7 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 120,
+        "value": 250,
         "density": {
           "enable": true,
           "value_area": 1000
@@ -63,7 +63,7 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 100,
-        "color": "#000000",
+        "color": "#888",
         "opacity": 0.5,
         "width": 1
       },

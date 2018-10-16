@@ -1,22 +1,27 @@
 body{
   height:100vh;
-  /* background: #f00; */
+  background: #fff;
+  margin:0; padding:0;
+}
+
+ul,li{
+  margin:0;
+  padding:0;
 }
 
 #particles-js{
   height:100%;
   background: #eee;
-  filter: blur(0.3px);
-
+  filter: blur(1px);
 }
 
 .clip{
   /* -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
   clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); */
-  /* -webkit-clip-path: inset(20% 10% 23% 10%);
-  clip-path: inset(20% 10% 23% 10%);
+  -webkit-clip-path: inset(10%);
+  clip-path: inset(10%);
   background-clip: text;
-  -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,bed4e5+100 */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,abbcce+80 */
 
@@ -31,27 +36,32 @@ body{
   position:absolute;
   width:100%;
   text-align:center;
-  top:350px;
-  background:rgba(255,255,255,0.7);
-  padding:10px;
+  top:370px;
   margin:auto;
-}
-.switch{
-  
-}
-/*
-.placeholder{
-  animation-name: switch;
-  animation-duration: 0.5s;
-  opacity:1;
+  color:#000;
 }
 
-@@keyframes switch {
-  0%{ opacity:1; }
-  100%{ opacity:0; }
+#placeholder{
+  /* opacity: 0; */
+  /* border:solid #ff0; */
+  width:430px;
+  height:78px;
+  font-weight: bold;
 }
+ul{
+  margin:0;
+}
+.title-wrap ul li{
+  text-decoration: none;
+  display:inline-block;
+  /* border:solid #00f; */
 
-@-webkit-keyframes switch{
-  0%{ opacity:1; }
-  100%{ opacity:0; }
-} */
+}
+.title-wrap ul li:nth-child(odd){
+  text-decoration: none;
+  display:inline-block;
+  padding:0;
+  margin:0;
+  /* border:solid #00f; */
+
+}
