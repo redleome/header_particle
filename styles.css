@@ -11,20 +11,19 @@ ul,li{
 
 #particles-js{
   height:100%;
-  background: #eee;
-  filter: blur(1px);
+  background: #fff;
+  /* filter: blur(0.3px); */
 }
 
 .clip{
   /* -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
   clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); */
-  -webkit-clip-path: inset(10%);
+  /* -webkit-clip-path: inset(10%);
   clip-path: inset(10%);
   background-clip: text;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,bed4e5+100 */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,abbcce+80 */
-
 }
 
 .title-wrap{
@@ -48,9 +47,11 @@ ul,li{
   height:78px;
   font-weight: bold;
 }
+
 ul{
   margin:0;
 }
+
 .title-wrap ul li{
   text-decoration: none;
   display:inline-block;
